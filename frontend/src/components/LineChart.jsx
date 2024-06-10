@@ -7,7 +7,7 @@ const LineChart = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/data')
+    axios.get('https://blackcoffer-backend-czht.onrender.com/api/data')
       .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
