@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <div>
       <h2 id="dashboardHeading">Data Visualization Dashboard</h2>
-      <h1 >Note:- This might take 30-40 seconds to fetch data from server.</h1>
+      <h4>Note:- This might take 30-40 seconds to fetch data from server.</h4>
 
       <div className="dashboard-container">
         <div className="chart-section full-width">
